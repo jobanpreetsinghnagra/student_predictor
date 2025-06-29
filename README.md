@@ -8,12 +8,9 @@ A machine learning project that predicts student performance using linear regres
 ## 📁 Project Structure
 
 ```
-├── .gradio/              # Gradio cache (auto-generated)
-├── .ipynb_checkpoints/   # Jupyter checkpoints (auto-generated)
 ├── dataset/              # Student performance dataset
 ├── app.py                # Main Gradio app (deployed version)
 ├── frontend.ipynb        # Jupyter notebook with model + Gradio interface
-├── misc.ipynb           # Miscellaneous experiments and testing
 ├── model_eval.ipynb     # Model evaluation and performance metrics
 ├── pand.ipynb           # Vanilla Python linear regression implementation
 ├── requirements.txt     # Python dependencies
