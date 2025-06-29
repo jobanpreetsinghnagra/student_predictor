@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import mean_squared_error
 
 # Load and preprocess data
-df = pd.read_csv("dataset/Student_Performance.csv")
+df = pd.read_csv("Student_Performance.csv")
 df['Extracurricular Activities'] = df['Extracurricular Activities'].map({'No': 0, 'Yes': 1})
 
 # Separate features and label

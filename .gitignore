@@ -1,0 +1,10 @@
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Gradio cache and temporary files
+.gradio/
+gradio_cached_examples/
+
+# Specific files to ignore
+misc.ipynb
